@@ -3,11 +3,9 @@ title: "Interstellar Explorer Logs"
 layout: layout.liquid
 ---
 
-🌌 **Welcome, Traveler.**  
+🌌 **Time moves forward, but I remain between worlds.**  
 
-You have accessed the personal logs of a **lone human explorer** charting the unknown depths of space. Beyond the reach of Earth, in the endless void, I record my **discoveries, anomalies, and encounters** across distant worlds.  
-
-Some findings are **scientific**. Some are **unexplainable**.  
+Earth is a memory—a place I once called home. Out here, among the stars, I follow the path of those who left before me, searching for answers, chasing whispers in the void.  
 
 📡 **Latest Transmissions:**  
 <div class="log-list">
@@ -15,4 +13,6 @@ Some findings are **scientific**. Some are **unexplainable**.
      <a href="/blog_posts/post-2/">🌠 Log 2: The Strange Echo</a>  
 </div>  
 
-The cosmos is vast. **But I am not alone.**  
+_"We are explorers, not caretakers."_  
+
+If you’re receiving this… **then I’m still out here.**  
