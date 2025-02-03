@@ -1,7 +1,7 @@
 /* ====== SPACE BACKGROUND WITH STARS ====== */
 body {
     font-family: Arial, sans-serif;
-    background-color: #000; /* Deep black space */
+    background-color: #000; 
     color: #ddd;
     text-align: center;
     position: relative;
@@ -11,17 +11,15 @@ body {
     padding: 0;
 }
 
-/* Stars container */
 .stars {
     position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    z-index: -1; /* Keeps stars behind content */
+    z-index: -1; 
 }
 
-/* Creating randomly scattered stars */
 .stars span {
     position: absolute;
     background: white;
@@ -74,7 +72,7 @@ main {
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    background: rgba(10, 10, 10, 0.8); /* Slight transparency */
+    background: rgba(10, 10, 10, 0.8); 
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
 }
@@ -108,16 +106,16 @@ a:hover {
 /* Adjust log list alignment and spacing */
 .log-list {
     display: flex;
-    flex-direction: column; /* Align items in a vertical stack */
-    align-items: center; /* Center the text */
+    flex-direction: column; 
+    align-items: center; 
     justify-content: left;
-    gap: 15px; /* Adjusts space between log entries */
+    gap: 15px; 
     margin-top: 20px;
 }
 
 .log-list a {
     font-size: 18px;
-    color: #c7ff66; /* Neon green for visibility */
+    color: #c7ff66; 
     font-weight: bold;
     text-decoration: none;
     transition: transform 0.2s ease-in-out, color 0.2s;
@@ -129,7 +127,6 @@ a:hover {
 }
 
 
-/* ====== FOOTER STYLING ====== */
 footer {
     margin-top: 20px;
     font-size: 14px;
@@ -138,7 +135,6 @@ footer {
     font-family:monospace;
 }
 
-/* ====== RESPONSIVE DESIGN ====== */
 @media (max-width: 768px) {
     main {
         width: 90%;

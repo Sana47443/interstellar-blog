@@ -10,6 +10,7 @@ module.exports = function (eleventyConfig) {
       return "<p><em>Exploration Log: Data entry successfully posted.</em></p>";
   });
 
+  eleventyConfig.addPassthroughCopy("styles");
   return {
       dir: {
           input: "main_blog",
