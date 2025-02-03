@@ -6,7 +6,7 @@ layout: layout.liquid
 
 🛰 **Mission Log - Identity File**  
 
-I am **Commander Elias Voss**, the last human sent beyond the known star systems. My mission: **to explore, document, and survive** in the cold abyss of space.  
+I am **Commander Murphy Cooper**, the last human sent beyond the known star systems. My mission: **to explore, document, and survive** in the cold abyss of space.  
 
 I was launched from Earth **decades ago**, yet out here, time moves differently. Stars burn, planets orbit, and signals whisper in the dark. **Some are natural. Some are not.**  
 
