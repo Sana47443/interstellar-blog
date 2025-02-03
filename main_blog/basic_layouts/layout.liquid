@@ -1,0 +1,41 @@
+---
+title: 11ty Boilerplate
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interstellar Explorer's Log</h1>
+        <nav>
+            <a href="/">Home</a> | 
+            <a href="/about/">About</a>
+        </nav>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <p>© 2025 Galactic Logs. All Rights Reserved.</p>
+    </footer>
+        <div class="stars"></div> <!-- Stars container -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const starContainer = document.querySelector(".stars");
+            for (let i = 0; i < 100; i++) { // Adjust number of stars
+                let star = document.createElement("span");
+                star.style.top = Math.random() * 100 + "vh";
+                star.style.left = Math.random() * 100 + "vw";
+                star.style.animationDuration = Math.random() * 3 + 2 + "s";
+                starContainer.appendChild(star);
+            }
+        });
+    </script>
+</body>
+</html>
